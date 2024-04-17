@@ -1,1 +1,1 @@
-# atomic-spinner 
+#  [atomic-spinner](https://socket.dev/npm/package/atomic-spinner)
