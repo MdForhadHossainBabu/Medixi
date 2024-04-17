@@ -15,7 +15,13 @@ const UpdateProfile = () => {
   updateProfile(auth.currentUser, {
     displayName: name,
     photoURL: photo,
-  });
+  })
+    .then(() => {
+        console.log("profile updated");
+    })
+    .catch(error => {
+      console.log(error);
+    })
 
     setUpdate(email,photo);
   }
