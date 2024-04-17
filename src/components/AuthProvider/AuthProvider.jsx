@@ -65,7 +65,7 @@ const AuthProvider = ({ children }) => {
  const loggedOut = () => {
    setLoading(true);
    signOut(auth)
-     .then(result => alert('log out successfully'))
+     .then(result => toast.success('log out successfully'))
      
    .then(error => console.log(error))
  }

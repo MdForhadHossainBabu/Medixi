@@ -64,9 +64,10 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>
     <HelmetProvider>
-       <AuthProvider>
-      <RouterProvider router={router}></RouterProvider>
-    </AuthProvider>
+      <AuthProvider>
+        <RouterProvider router={router}></RouterProvider>
+      </AuthProvider>
     </HelmetProvider>
+    <Toaster position="top-center" reverseOrder={false} />
   </>
 );

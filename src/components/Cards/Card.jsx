@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const Card = ({ card }) => {
- console.log(card);
+//  console.log(card);
  const {
    description,
    estate_title,

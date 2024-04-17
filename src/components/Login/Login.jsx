@@ -14,6 +14,7 @@ import {
   IoLogoGithub,
 } from 'react-icons/io5';
 import { Helmet } from "react-helmet-async";
+import toast from "react-hot-toast";
 
 const Login = () => {
 
@@ -56,7 +57,7 @@ const Login = () => {
           const user = result.user;
           // navigate(form);
           setUser(user)
-          console.log(user);
+          toast.success("Successfully login with Google")
         })
         .catch(error => console.log(error));
     };
@@ -65,6 +66,7 @@ const Login = () => {
     facebookLogin()
       .then(result => {
         const user = result.user;
+        toast.success('Successfully login with Facebook')
         console.log(user);
       })
       .catch(error => {
@@ -80,6 +82,7 @@ const Login = () => {
       .then(result => {
         const user = result.user;
         setUser(user)
+        toast.success('successfully login with Git Hub')
         console.log(user);
       })
       .catch(error => {

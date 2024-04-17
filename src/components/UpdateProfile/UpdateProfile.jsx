@@ -36,8 +36,8 @@ const UpdateProfile = () => {
              <p className="my-2 opacity-80 underline">Update Name :</p>
              <input name="name"
                className="border-2 px-4 w-[24rem] py-2 rounded-lg"
-               type="text"
-               placeholder="Update Your Name*"
+               type="text" 
+               placeholder={user.displayName}
              />
            </div>
            <div>
@@ -45,7 +45,7 @@ const UpdateProfile = () => {
              <input name="photo"
                className="border-2 px-4 w-[24rem] py-2 rounded-lg"
                type="text"
-               placeholder="Update Photo URL*"
+               placeholder={user.photoURL}
              />
            </div>
            <button className="border-2 bg-white font-bold rounded-lg text-green-400 border-green-500  py-2">
