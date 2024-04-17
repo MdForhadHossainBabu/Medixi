@@ -1,6 +1,8 @@
 import { useContext } from "react";
 import { AuthContext } from "../AuthProvider/AuthProvider";
 import { Helmet } from "react-helmet-async";
+import { updateProfile } from "firebase/auth";
+import { auth } from "../../Firebase/firebase.config";
 
 const UpdateProfile = () => {
 
@@ -10,11 +12,18 @@ const UpdateProfile = () => {
     e.preventDefault();
     const email = e.target.name.value;
     const photo = e.target.photo.value;
-    console.log(email,photo);
+  updateProfile(auth.currentUser, {
+    displayName: name,
+    photoURL: photo,
+  });
+
+    setUpdate(email,photo);
   }
 
- const { user } = useContext(AuthContext)
- console.log(user);
+ const { user,setUpdate } = useContext(AuthContext)
+  console.log(user);
+  
+
  return (
    <div>
      <Helmet>
@@ -48,7 +57,7 @@ const UpdateProfile = () => {
                placeholder={user.photoURL}
              />
            </div>
-           <button className="border-2 bg-white font-bold rounded-lg text-green-400 border-green-500  py-2">
+           <button  className="border-2 bg-white font-bold rounded-lg text-green-400 border-green-500  py-2">
              Update Profile
            </button>
          </div>

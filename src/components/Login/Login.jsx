@@ -162,7 +162,7 @@ const Login = () => {
          onClick={facebookPopUpLogin}
        >
          <IoLogoFacebook></IoLogoFacebook>{' '}
-         <span className="text-sm">Login with Github</span>
+         <span className="text-sm">Login with Facebook</span>
        </div>
        <div
          data-aos="fade-up-left"

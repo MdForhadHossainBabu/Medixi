@@ -13,7 +13,7 @@ const SingleData = () => {
       <h3 className="text-4xl font-bold text-center items-center first-letter:text-5xl">
         Current Pages Details
       </h3>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:mx-52 my-12 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:mx-52 my-12 mx-4 border-2 px-12 py-3 rounded-lg bg-gray-200">
         <div>
           <img
             className="lg:w-[52rem] lg:h-full rounded-xl shadow-xl drop-shadow-xl"

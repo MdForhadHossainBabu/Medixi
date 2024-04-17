@@ -12,6 +12,7 @@ import { toast } from 'react-hot-toast';
 const AuthProvider = ({ children }) => {
  
   const [user, setUser] = useState(null);
+  const [update, setUpdate] = useState(null)
   const [loading, setLoading] = useState(true);
 
   const registerUser = (email, password) => {
@@ -73,7 +74,7 @@ const AuthProvider = ({ children }) => {
 
  const authInfo = {
    registerUser,
-  loginUser,
+   loginUser,
    loggedOut,
    registerPopUp,
    user,
@@ -81,7 +82,9 @@ const AuthProvider = ({ children }) => {
    facebookLogin,
    githubLogin,
    ProfileUpdate,
-   loading
+   loading,
+   update,
+   setUpdate
  };
 
  return (

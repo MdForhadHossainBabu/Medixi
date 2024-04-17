@@ -8,7 +8,8 @@ import { AuthContext } from '../AuthProvider/AuthProvider';
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
-  const { user, loggedOut } = useContext(AuthContext);
+  const { user, loggedOut, update } = useContext(AuthContext);
+  console.log(update);
   // console.log(user);
 
   const navLinks = (
@@ -87,7 +88,7 @@ const Navbar = () => {
           </div>
           <div
             className={`lg:hidden duration-500
-         ${open ? 'top-[3rem]' : '-top-[56rem]'}
+         ${open ? 'top-[3rem]' : '-top-[54rem]'}
          flex flex-col absolute gap-2 right-2 top-5 bg-slate-200 rounded-xl px-3 py-5 items-center`}
           >
             {navLinks}
