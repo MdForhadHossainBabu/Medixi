@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "estate_title": "Modern Hospital Complex",
+    "segment_name": "Family Physician & Doctor",
+    "description": "State-of-the-art hospital complex equipped with the latest medical technology. Specialized departments for various medical needs.",
+    "price": 10000000,
+    "status": "sale",
+    "area": "50000 sq ft",
+    "location": "Medical District, Los Angeles",
+    "facilities": [
+      "emergency room",
+      "operating theaters",
+      "ICU",
+      "radiology department"
+    ],
+    "image_url": "https://i.ibb.co/zQ28Y5V/sr-d-6-347x200.jpg"
+  },
+  {
+    "id": 2,
+    "estate_title": "Community Health Clinic",
+    "segment_name": "Hematology and Super Cool",
+    "description": "Community-oriented health clinic providing primary care services. Focus on preventive healthcare and wellness programs.",
+    "price": 500000,
+    "status": "sale",
+    "area": "10000 sq ft",
+    "location": "Suburban Area, Houston",
+    "facilities": [
+      "consultation rooms",
+      "pharmacy",
+      "laboratory",
+      "fitness center"
+    ],
+    "image_url": "https://i.ibb.co/2srYkwL/sr-d-7-347x200.jpg"
+  },
+  {
+    "id": 3,
+    "estate_title": "Rehabilitation Center",
+    "segment_name": "Healthcare",
+    "description": "Specialized rehabilitation center offering comprehensive therapy programs for patients recovering from injuries or surgeries.",
+    "price": 750000,
+    "status": "sale",
+    "area": "15000 sq ft",
+    "location": "Scenic Countryside, Vermont",
+    "facilities": [
+      "physical therapy rooms",
+      "occupational therapy area",
+      "recreation facilities"
+    ],
+    "image_url": "https://i.ibb.co/drLt42r/download-1.jpg"
+  },
+  {
+    "id": 4,
+    "estate_title": "Psychiatric Hospital",
+    "segment_name": "Laboratory & Pathology Drag",
+    "description": "Dedicated psychiatric hospital providing compassionate care for patients with mental health disorders. Safe and therapeutic environment.",
+    "price": 2000000,
+    "status": "sale",
+    "area": "30000 sq ft",
+    "location": "Quiet Suburb, Seattle",
+    "facilities": ["psychiatric wards", "therapy rooms", "activity centers"],
+    "image_url": "https://wordpress.vecurosoft.com/medixi/wp-content/uploads/2021/09/sr-d-5-347x200.jpg"
+  },
+  {
+    "id": 5,
+    "estate_title": "Veterinary Clinic",
+    "segment_name": "Healthcare",
+    "description": "Full-service veterinary clinic catering to the healthcare needs of pets and animals. Experienced veterinarians and modern diagnostic equipment.",
+    "price": 300000,
+    "status": "sale",
+    "area": "5000 sq ft",
+    "location": "Pet-friendly Neighborhood, San Francisco",
+    "facilities": [
+      "exam rooms",
+      "surgery suite",
+      "diagnostic imaging",
+      "pet boarding"
+    ],
+    "image_url": "https://i.ibb.co/0MVByF5/premium-photo-1664475450083-5c9eef17a191.jpg"
+  },
+  {
+    "id": 6,
+    "estate_title": "Medical Office Building",
+    "segment_name": "Heart Checkup & Cardiovacule",
+    "description": "Multi-tenant medical office building suitable for various healthcare professionals. Convenient location with ample parking.",
+    "price": 1500000,
+    "status": "sale",
+    "area": "20000 sq ft",
+    "location": "Commercial Area, Miami",
+    "facilities": ["doctor's offices", "waiting areas", "diagnostic services"],
+    "image_url": "https://wordpress.vecurosoft.com/medixi/wp-content/uploads/2021/09/sr-d-4-347x200.jpg"
+  }
+]
