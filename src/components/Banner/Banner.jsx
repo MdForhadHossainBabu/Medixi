@@ -41,22 +41,30 @@ const Banner = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            {' '}
             <div className="relative">
               <h2 className="lg:text-5xl text-2xl px-2 left-6 top-8 absolute lg:top-44 font-bold text-blue-950 ">
                 <span data-aos="fade-down" data-aos-duration="700">
-                  {' '}
-                  Best treatment for{' '}
+                  Best treatment for
                 </span>
                 <br />
                 <span
-                  data-aos="fade-up"
+                  data-aos="fade-down"
                   data-aos-duration="500"
                   className="text-white"
                 >
                   healthy Life
                 </span>
               </h2>
+              <p
+                data-aos="fade-up"
+                data-aos-duration="700"
+                className="absolute top-72 mr-[52rem] ml-12 right-12 p-2"
+              >
+                Conveniently drive go forward architectures with future-proof
+                growth strategies. Energistically supply low-risk high-yield
+                process improvements for mission-critical testing procedures and
+                visual mockups
+              </p>
               <img
                 src="https://wordpress.vecurosoft.com/medixi/wp-content/uploads/2023/02/h-bg-3-2.jpg"
                 alt=""
@@ -72,13 +80,23 @@ const Banner = () => {
                 </span>
                 <br />{' '}
                 <span
-                  data-aos="fade-up"
+                  data-aos="fade-down"
                   data-aos-duration="500"
                   className="text-white"
                 >
                   Patient First
                 </span>
               </h2>
+              <p
+                data-aos="fade-up"
+                data-aos-duration="700"
+                className="absolute top-72 mr-[52rem] ml-12 right-12 p-2"
+              >
+                Conveniently drive go forward architectures with future-proof
+                growth strategies. Energistically supply low-risk high-yield
+                process improvements for mission-critical testing procedures and
+                visual mockups
+              </p>
               <img
                 src="https://wordpress.vecurosoft.com/medixi/wp-content/uploads/layerslider/projects/Medilax-Slider-3/h-bg-3-1.jpg"
                 alt=""
@@ -97,14 +115,18 @@ const Banner = () => {
                 </span>
                 <br />
                 <span
-                  data-aos="fade-up"
+                  data-aos="fade-down"
                   data-aos-duration="500"
                   className="text-white"
                 >
                   and physicians
                 </span>
               </h2>
-              <p className='absolute top-72 mr-[52rem] border-2 ml-12 right-12'>
+              <p
+                data-aos="fade-up"
+                data-aos-duration="700"
+                className="absolute top-72 mr-[52rem] ml-12 right-12 p-2"
+              >
                 Conveniently drive go forward architectures with future-proof
                 growth strategies. Energistically supply low-risk high-yield
                 process improvements for mission-critical testing procedures and
