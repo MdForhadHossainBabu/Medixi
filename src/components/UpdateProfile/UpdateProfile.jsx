@@ -17,7 +17,7 @@ const UpdateProfile = () => {
     photoURL: photo,
   })
     .then(() => {
-        console.log("profile updated");
+        console.log('updated');
     })
     .catch(error => {
       console.log(error);
@@ -38,7 +38,12 @@ const UpdateProfile = () => {
      <form onSubmit={handleSubmit}>
        <div className="flex flex-col lg:flex md:flex py-12  gap-12 items-center justify-center my-12 border-2 lg:mx-96 bg-gray-200">
          <div className="flex flex-col items-center gap-4">
-           <img className="rounded-full w-32" src={user.photoURL} alt="image" />
+           <img
+             className="rounded-full w-32"
+             src={
+               user.photoURL }
+             alt="image"
+           />
            <h1>
              Name : <span className="font-bold">{user.displayName}</span>{' '}
            </h1>
@@ -49,21 +54,23 @@ const UpdateProfile = () => {
          <div className="flex flex-col space-y-5 my-12">
            <div>
              <p className="my-2 opacity-80 underline">Update Name :</p>
-             <input name="name"
+             <input
+               name="name"
                className="border-2 px-4 w-[24rem] py-2 rounded-lg"
-               type="text" 
+               type="text"
                placeholder={user.displayName}
              />
            </div>
            <div>
              <p className="my-2 underline opacity-80">Update URL : </p>
-             <input name="photo"
+             <input
+               name="photo"
                className="border-2 px-4 w-[24rem] py-2 rounded-lg"
                type="text"
                placeholder={user.photoURL}
              />
            </div>
-           <button  className="border-2 bg-white font-bold rounded-lg text-green-400 border-green-500  py-2">
+           <button className="border-2 bg-white font-bold rounded-lg text-green-400 border-green-500  py-2">
              Update Profile
            </button>
          </div>

@@ -4,6 +4,7 @@ import { AuthContext } from "../AuthProvider/AuthProvider";
 import { FaEyeSlash, FaEye } from 'react-icons/fa';
 import { updateProfile } from "firebase/auth";
 import { Helmet } from "react-helmet-async";
+import { auth } from "../../Firebase/firebase.config";
 
 
 
@@ -56,7 +57,7 @@ const Register = () => {
          console.log(loggedUser);
         
          setSuccess('user created successfully');
-         updateProfile(user, {
+         updateProfile(auth.currentUser, {
            displayName: name,
            photoURL: photo,
          })

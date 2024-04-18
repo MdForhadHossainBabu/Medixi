@@ -12,7 +12,7 @@ const Cards = () => {
  },[])
  return (
    <div>
-     <h3 className="text-5xl text-center items-center font-bold first-letter:text-6xl">Real Estate</h3>
+     <h3 data-aos="zoom-out-down" data-aos-duration="1000" className="text-5xl text-center items-center font-medium">Real Estate</h3>
      <p className="text-center items-center justify-center lg:mx-96 my-6">
        Conveniently located near premier medical facilities, our properties
        offer peace of mind and easy access to essential healthcare services.

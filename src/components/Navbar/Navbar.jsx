@@ -88,7 +88,7 @@ const Navbar = () => {
           </div>
           <div
             className={`lg:hidden duration-500
-         ${open ? 'top-[3rem]' : '-top-[54rem]'}
+         ${open ? 'top-[3rem]' : '-top-[44rem]'}
          flex flex-col absolute gap-2 right-2 top-5 bg-slate-200 rounded-xl px-3 py-5 items-center`}
           >
             {navLinks}
